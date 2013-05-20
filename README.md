@@ -1,4 +1,4 @@
-acs
-===
+project-starter-template
+========================
 
-ACS
+Template for web projects with Hammer and Foundation4
