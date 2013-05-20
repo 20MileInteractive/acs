@@ -3862,3 +3862,26 @@ footer p {
   font-size: 0.6875em;
   text-align: center;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+#masthead {
+  text-align: center;
+  margin-bottom: 3rem; }
+  #masthead img {
+    margin: 1rem auto; }
+  #masthead nav a {
+    background: #eee;
+    padding: 1rem 0;
+    border: 1px solid #fff; }
+
+footer {
+  margin: 4rem 0 2rem;
+  text-align: center;
+  color: #666; }
+  footer p {
+    font-size: 1rem; }
+
+#donate-panel {
+  text-align: center;
+  background: #eee;
+  padding: 3rem 0;
+  margin: 3rem auto 0; }
