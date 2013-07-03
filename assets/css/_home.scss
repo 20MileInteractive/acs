@@ -5,3 +5,31 @@
 	margin: 3rem auto 0;
 }
 
+img#home-photo-1{
+	-webkit-animation: home-photos .5s ease-in;
+}
+
+img#home-photo-2{
+	-webkit-animation: home-photos 1s  ease-in;
+}
+
+@-webkit-keyframes home-photos{
+	0%{
+		opacity:0;
+		-webkit-transform: translate(0,25px);		
+		}
+
+	50% {
+		opacity:.4;
+		}
+	
+	70%{
+		opacity:.8;
+		-webkit-transform: translate(0,-25px);		
+		}
+
+	100%{
+		opacity:1;
+		-webkit-transform: translate(0,0);		
+		}
+	}	
