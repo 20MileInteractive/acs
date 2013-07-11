@@ -4274,6 +4274,9 @@ a.th {
 ul, ol {
   list-style-position: inside; }
 
+#subscribe {
+  margin-top: 2rem; }
+
 #masthead {
   text-align: center;
   margin-bottom: 3rem; }
