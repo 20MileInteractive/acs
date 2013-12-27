@@ -1841,7 +1841,7 @@ form.custom {
     background: -moz-linear-gradient(top, white 0%, #f3f3f3 100%);
     background: -webkit-linear-gradient(top, white 0%, #f3f3f3 100%);
     -webkit-box-shadow: none;
-    background: linear, to bottom, white 0%, #f3f3f3 100%;
+    background: linear-gradient(to bottom, white 0%, #f3f3f3 100%);
     box-shadow: none;
     font-size: 0.875em;
     vertical-align: top; }
@@ -3983,14 +3983,14 @@ ul.pagination {
       background: white;
       background: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
       background: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
-      background: linear, to bottom, white 0%, #f2f2f2 100%;
+      background: linear-gradient(to bottom, white 0%, #f2f2f2 100%);
       -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
       box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke; }
     div.switch:hover span:last-child, div.switch:focus span:last-child {
       background: white;
       background: -moz-linear-gradient(top, white 0%, #e6e6e6 100%);
       background: -webkit-linear-gradient(top, white 0%, #e6e6e6 100%);
-      background: linear, to bottom, white 0%, #e6e6e6 100%; }
+      background: linear-gradient(to bottom, white 0%, #e6e6e6 100%); }
     div.switch:active {
       background: transparent; }
     div.switch.large {
@@ -4279,10 +4279,16 @@ a.th {
   margin-bottom: 3rem; }
   #masthead img {
     margin: 1rem auto; }
-  #masthead nav a {
-    background: #eee;
-    padding: 1rem 0;
-    border: 1px solid #fff; }
+  #masthead nav {
+    background: #fff; }
+    #masthead nav a {
+      background: #eee;
+      padding: 1rem 1rem;
+      border: 1px solid #fff;
+      color: #2ba6cb; }
+    #masthead nav a.donate {
+      background: #053c7c;
+      color: #fff; }
 
 footer {
   margin: 4rem 0 2rem;
@@ -4290,6 +4296,10 @@ footer {
   color: #666; }
   footer p {
     font-size: 1rem; }
+  footer a.fb {
+    display: inline-block;
+    width: auto;
+    background: #053c7c; }
 
 #donate-panel {
   text-align: center;

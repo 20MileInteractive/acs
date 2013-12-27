@@ -9,11 +9,17 @@
 	}
 
 	nav{
-
-		a{
+	background: #fff;
+		a
+		{
 		background:#eee;
-		padding: 1rem 0;
+		padding: 1rem 1rem;
 		border:1px solid #fff;
+		color: #2ba6cb;
+	}
+	a.donate {
+		background: #053c7c;
+		color: #fff;
 	}
 	}
 }
